@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>onlineCheckerBoard</class>
+ <widget class="QWidget" name="onlineCheckerBoard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="P2_Portrait">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>560</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/pic/resource/bk.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="P2_StepTime">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>740</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="RecordBox">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>30</y>
+     <width>241</width>
+     <height>341</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Summation">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>450</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>求和</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="P2_GameTime">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>700</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P1_Flag">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>170</y>
+     <width>52</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/resource/flag.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>200</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>局时：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P1_rank">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>120</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>青铜5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P1_check">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>80</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/Piece/bshuai.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P2_rank">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>620</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>青铜5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>250</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>步时：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RegretChess">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>390</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>悔棋</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>750</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>步时：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P1_Name">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>80</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Player1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P1_Portrait">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>60</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/pic/resource/bk.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P2_Flag">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>680</y>
+     <width>52</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/resource/flag.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P2_check">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>580</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/Piece/rshuai.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="P1_GameTime">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>190</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="P1_StepTime">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>240</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>710</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>局时：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="P2_Name">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>580</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Player1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AdaimDefeat">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>330</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>认输</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="GameChatBox">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>500</y>
+     <width>241</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GameChatSend">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>810</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="GameChatText">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>810</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
